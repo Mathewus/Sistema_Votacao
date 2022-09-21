@@ -1,0 +1,119 @@
+body {
+
+    background-color: #118BCE;
+
+}
+
+#containercentral {
+
+    margin-top: 20px;
+    height: 770px;
+    max-width: 435px;
+}
+
+
+.inputstexts input {
+
+    width: 330px;
+    margin-left: 30px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.inputstexts label {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 3px;
+    font-size: 14pt;
+
+}
+
+
+.imagens {
+
+    height: 90px;
+    width: 90px;
+
+}
+
+
+.inputsradios {
+
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
+.inputsradios label {
+
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 22px;
+    font-size: 17pt;
+}
+
+
+.inputsradios input {
+    cursor: pointer;
+    appearance: none;
+    background: rgb(229, 229, 229);
+    margin-top: 22px;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    outline: none;
+    border-radius: 50%;
+    border: 0.2px solid rgb(196, 194, 194);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.inputsradios input:before {
+
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #118BCE;
+    border-radius: 50%;
+    opacity: 0;
+
+}
+
+.inputsradios input:checked:before {
+    opacity: 1;
+
+}
+
+
+#button {
+    margin-top: 35px;
+    width: 330px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.botao {
+    font-size: 14pt;
+    color: azure;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    background-color: #118BCE;
+    border: 0.2px solid;
+    transition-duration: 0.3s;
+
+
+}
+
+.botao:hover{
+
+    background-color: #0B5ED7;
+    transition-duration: 0.3s;
+}

@@ -1,0 +1,63 @@
+body h1 {
+
+    text-align: center;
+}
+
+.container {
+
+    text-align: center;
+
+}
+
+.container h1 {
+
+
+    text-align: left;
+}
+
+
+
+#divisao {
+
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+
+#divisao h2 {
+
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.bloco {
+
+    display: inline-block;
+}
+
+
+.bloco label {
+    margin-top: 10px;
+    font-size: 14pt;
+}
+
+
+.imagens {
+
+    height: 190px;
+    width: 190px;
+    border-radius: 10px;
+
+}
+
+
+#bill {
+    margin-right: 30px;
+}
+
+#mark {
+    margin-left: 30px;
+}
