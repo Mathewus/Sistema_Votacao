@@ -20,6 +20,7 @@ if (!empty($_POST['nome_eleitor']) && !empty($_POST['cpf']) && !empty($_POST['id
     if (empty($eleitor->erro)) {
         $eleitorDao->createEleitor($eleitor);
     }
+
 }
 
 ?>
@@ -33,8 +34,8 @@ if (!empty($_POST['nome_eleitor']) && !empty($_POST['cpf']) && !empty($_POST['id
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Votação</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
 </head>
 
 
@@ -96,7 +97,7 @@ if (!empty($_POST['nome_eleitor']) && !empty($_POST['cpf']) && !empty($_POST['id
 
                  <div class="d-grid mb-4">
                 <a href="relatorio.php" target="_blanck">
-                    <button class="botao" type="button">Relatório de Votos</button>
+                    <button class="botao btn btn-success" type="button">Relatório de Votos</button>
                 </a>
                 </div>
                 

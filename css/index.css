@@ -100,20 +100,11 @@ body {
 
 .botao {
     font-size: 14pt;
-    color: azure;
     margin-left: 110px;
     margin-bottom: 10px;
     border-radius: 5px;
     padding-bottom: 10px;
-    background-color: #118BCE;
     border: 0.2px solid;
-    transition-duration: 0.3s;
 
 
-}
-
-.botao:hover{
-
-    background-color: #0B5ED7;
-    transition-duration: 0.3s;
 }

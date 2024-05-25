@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `eleitor`
 --
 
-DROP TABLE IF EXISTS `eleitor`;
+-- DROP TABLE IF EXISTS `eleitor`;
 CREATE TABLE IF NOT EXISTS `eleitor` (
   `id_eleitor` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT,
   `nome_eleitor` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
